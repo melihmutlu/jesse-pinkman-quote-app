@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".50"
+        android:background="#7EC0EE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:typeface="monospace"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:id="@+id/textView1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:background="#7EC0EE"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="serif"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:id="@+id/textView2"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".30"
+        android:id="@+id/RandBtn"
+        android:background="#7EC0EE"
+        android:text="YO, BITCH !"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:layout_marginTop="2dp"
+        />
+
+
+
+</LinearLayout>
